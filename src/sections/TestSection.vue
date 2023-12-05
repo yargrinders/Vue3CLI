@@ -15,7 +15,7 @@ export default {
         return {
             joke: 'Loading joke...',
         };
-    },cd
+    },
     mounted() {
         this.fetchJoke();
     },
