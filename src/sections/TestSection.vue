@@ -2,6 +2,7 @@
 <template>
     <div>
         <h2>Test Section</h2>
+        <p>API шутки про Чака Норриса</p>
         <p>{{ joke }}</p>
     </div>
 </template>
@@ -14,7 +15,7 @@ export default {
         return {
             joke: 'Loading joke...',
         };
-    },
+    },cd
     mounted() {
         this.fetchJoke();
     },
